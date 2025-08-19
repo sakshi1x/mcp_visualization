@@ -1,5 +1,5 @@
 # import altair as alt
-# from src.hook.main import ChartInput, save_chart
+# from src.model.main import ChartInput, save_chart
 # import uuid
 
 # def create_pie_chart(input_data: ChartInput) -> str:
@@ -25,7 +25,7 @@ import uuid
 from pathlib import Path
 
 import altair as alt
-from hook.main import ChartInput
+from model.main import ChartInput
 
 OUTPUT_DIR = Path("static/charts")
 BASE_URL = "http://localhost:8000/static/charts"

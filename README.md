@@ -20,7 +20,7 @@ charts_visualization/
 │   │   ├── bar_chart.py     # Bar chart generation logic
 │   │   ├── pie_chart.py     # Pie chart generation logic
 │   │   └── __init__.py
-│   └── hook/
+│   └── model/
 │       └── main.py          # Data models and shared logic
 ├── static/
 │   └── charts/              # Generated chart images (PNG)

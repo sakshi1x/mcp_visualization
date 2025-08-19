@@ -11,7 +11,7 @@ from starlette.routing import Mount
 
 from charts.bar_chart import create_bar_chart
 from charts.pie_chart import create_pie_chart
-from hook.main import ChartData, ChartInput
+from model.main import ChartData, ChartInput
 
 # Define constants
 OUTPUT_DIR = Path("static/charts")
